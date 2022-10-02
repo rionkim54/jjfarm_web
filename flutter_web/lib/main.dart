@@ -245,7 +245,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               }
 
                               String url =
-                                  'http://zwfarm.ddns.net:8080/jj_netroom/query?start=${DateFormat('yyyy-MM-dd').format(_dateTimeS)}&end=${DateFormat('yyyy-MM-dd').format(_dateTimeS)}&interval=${interval.toString()}&type=xls';
+                                  'http://zwfarm.ddns.net:8080/jj_netroom/query?start=${DateFormat('yyyy-MM-dd').format(_dateTimeS)}&end=${DateFormat('yyyy-MM-dd').format(_dateTimeE)}&interval=${interval.toString()}&type=xls';
                               print('url=' + url);
                               html.window.open(url, 'new tab');
                             },
